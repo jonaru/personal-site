@@ -1,26 +1,12 @@
-/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. 
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
-    --black: #171321;
-    --dkblue: #0d314b;
-    --plum: #4b0d49;
-    --hotmag: #ff17e4;
-    --magenta: #e310cb;
-    --aqua: #86fbfb;
-    --white: #f7f8fa;
-    --font-size: 1.3rem;
-    --mono: "Oxygen mono", monospace;
-    --sans: Oxygen, sans-serif;
-}
-    --plum: #1c2d3d;
-*/
-:root {
-    --black: #030C26;
-    --dkblue: #077F8C;
-    --plum: #26A6A6;
-    --hotmag: #61bac4;
-    --magenta: #04BF68;
-    --aqua: #0DF205;
-    --white: #f7f8fa;
+    --primary-color: #030C26;
+    --secondary-color: #077F8C;
+    --tertiary-color: #26A6A6;
+    --tertiary-hot: #61bac4;
+    --button-color: #04BF68;
+    --button-hot: #0DF205;
+    --text-primary-color: #f7f8fa;
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
@@ -41,8 +27,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--primary-color);
+  color: var(--text-primary-color);
   font-size: var(--font-size);
 }
 
@@ -51,10 +37,10 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: var(--magenta);
+  color: var(--button-color);
 }
 a:hover {
-  color: var(--hotmag);
+  color: var(--tertiary-hot);
   text-decoration: none;
 }
 
@@ -63,19 +49,15 @@ img {
 }
 
 /* background styles */
-.section-plum {
-    background-color: var(--plum);
+.section-tertiary-color {
+    background-color: var(--tertiary-color);
 }
 
-.section-blue {
-    background-color: var(--dkblue);
+.section-secondary-color {
+    background-color: var(--secondary-color);
 }
 
 .gradient {
-  /*
-    background: rgb(255,23,228);
-    background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%); 
-    */
     background: rgb(13,242,5);
     background: linear-gradient(90deg, rgba(13,242,5,1) 22%, rgba(39,65,140,1) 74%);
     height: 2px;
@@ -119,7 +101,7 @@ nav {
   
   nav [class*="fa-"] {
     font-size: 150%;
-    color: var(--aqua);
+    color: var(--button-hot);
   }
   
   nav h1 [class*="fa-"] {
@@ -127,13 +109,13 @@ nav {
   }
   
   nav a {
-    color: var(--white);
+    color: var(--text-primary-color);
     text-decoration: none;
     display: block;
   }
   nav a:hover,
   nav [class*="fa-"]:hover{
-    color: var(--magenta);
+    color: var(--button-color);
   }
 
 /* intro styles*/
@@ -154,7 +136,7 @@ nav {
 .name span {
   font-family: var(--sans);
   font-size: 4rem;
-  color: var(--aqua);
+  color: var(--button-hot);
   display: block;
 }
 
@@ -175,7 +157,7 @@ nav {
 }
 
 #projects h3 {
-    color: var(--aqua);
+    color: var(--button-hot);
 }
 
 #projects h4 {
@@ -186,8 +168,8 @@ nav {
 
 .blackbox {
     padding: 1rem;
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--text-primary-color);
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 10px;
@@ -210,8 +192,8 @@ nav {
     margin: 2rem 0 4rem 0;
     padding: 1rem;
 
-    border-left: 1px solid var(--aqua);
-    border-top: 1px solid var(--aqua);
+    border-left: 1px solid var(--button-hot);
+    border-top: 1px solid var(--button-hot);
     border-radius: 25px;
 }
 
@@ -265,18 +247,18 @@ nav {
 }
 
 .button {
-  background-color: var(--magenta);
+  background-color: var(--button-color);
   padding: 0.5rem;
   border-radius: 5px;
-  border: var(--dkblue) solid 1px;
+  border: var(--secondary-color) solid 1px;
 
   color: black; /*var(--white);*/
   font-family: var(--mono);
   text-decoration: none;
 }
 .button:hover {
-  color: var(--white);
-  background-color: var(--hotmag);
+  color: var(--text-primary-color);
+  background-color: var(--tertiary-hot);
 }
 
 /* footer */
