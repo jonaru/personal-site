@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { Outlet, createRootRoute } from '@tanstack/react-router'
+import { Outlet, RootRoute, createRootRoute } from '@tanstack/react-router'
 import Header from '../Header'
 import Footer from '../Footer'
 
-export const Route = createRootRoute({
+export const Route: RootRoute = createRootRoute({
   component: RootComponent,
 })
 
-function RootComponent() {
+function RootComponent():React.JSX.Element {
   return (
     <React.Fragment>
       <Header />

@@ -1,5 +1,6 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
+import { createLazyFileRoute, LazyRoute } from '@tanstack/react-router'
 import { getImageURL } from '../utils/image-utils'
+import { JSX } from 'react'
 
 export const Route = createLazyFileRoute('/about')({
   component: About,
@@ -9,7 +10,7 @@ const styleHidden: React.CSSProperties = {
   visibility: "hidden"
 }
 
-function About() {
+function About(): JSX.Element {
   return (
     <>
         <div className="gradient"></div>

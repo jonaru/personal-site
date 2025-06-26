@@ -1,11 +1,12 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 import { getImageURL } from '../utils/image-utils'
+import { JSX } from 'react'
 
 export const Route = createLazyFileRoute('/')({
   component: Work,
 })
 
-function Work() {
+function Work(): JSX.Element {
   return (
     <>
         <section id="intro">
