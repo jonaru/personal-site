@@ -1,4 +1,5 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
+import { getImageURL } from '../utils/image-utils'
 
 export const Route = createLazyFileRoute('/')({
   component: Work,
@@ -36,7 +37,7 @@ function Work() {
                             <li>Extended teams</li>
                         </ul>
                     </div>
-                    <img src="./img/kognic.png" alt="Screenshot of the Wall of Wonder." />
+                    <img src={getImageURL("kognic.png")} alt="Screenshot of the Wall of Wonder." />
                 </article>
                 <article className="reverse">
                     <div className="text">
@@ -55,7 +56,7 @@ function Work() {
                             <li>Test driven development</li>
                         </ul>
                     </div>
-                    <img className="img" src="./img/zenseact.png" alt="Screenshot of the Wall of Wonder." />
+                    <img className="img" src={getImageURL("zenseact.png")} alt="Screenshot of the Wall of Wonder." />
                 </article>
                 <article>
                     <div className="text">
@@ -77,7 +78,7 @@ function Work() {
                             <li>Organizational change management</li>
                         </ul>
                     </div>
-                    <img src="./img/ericsson.jpeg" alt="Screenshot of the Wall of Wonder." />
+                    <img src={getImageURL("ericsson.jpeg")} alt="Screenshot of the Wall of Wonder." />
                 </article>
             </section>
         </div>

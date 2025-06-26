@@ -1,4 +1,5 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
+import { getImageURL } from '../utils/image-utils'
 
 export const Route = createLazyFileRoute('/about')({
   component: About,
@@ -36,7 +37,7 @@ function About() {
                             <li>Html/CSS</li>
                         </ul>
                     </div>
-                    <img src="img/profile.jpeg" alt="Profile picture of Jonatan." />
+                    <img src={getImageURL("profile.jpeg")} alt="Profile picture of Jonatan." />
                 </article>
             </section>
         </div>
