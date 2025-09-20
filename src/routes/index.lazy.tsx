@@ -13,7 +13,6 @@ function Work(): JSX.Element {
             <p className="name">Hi, my name is <span>Jonatan Rugarn.</span></p>
             <h2>I help engineering teams reach the next level.</h2>
             <p>I'm an engineering executive specializing in team development, ways of working, and technical excellence.</p>
-            <p>Currently, I'm on parental leave, taking care of two wonderful kids.</p>
         </section>
         
         <div className="gradient"></div>
