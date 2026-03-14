@@ -306,7 +306,7 @@ nav {
 
 #contact .submit {
     margin-top: 1rem;
-    align-text: center;
+    align-items: center;
 }
 
 #contact p:last-child {
@@ -385,7 +385,7 @@ footer ul {
 
 @media (min-width: 850px) {
   nav {
-    mad-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   nav li:first-child {
