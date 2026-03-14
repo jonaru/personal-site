@@ -15,7 +15,7 @@ export default function Footer(): JSX.Element {
                     <span className="fa-solid fa-envelope" aria-hidden="true"></span>
                     <span className="sr-only">E-mail</span></a></li>
             </ul>
-            <p><small>© 2025 Jonatan Rugarn. All rights reserved.</small></p>
+            <p><small>© 2026 Jonatan Rugarn. All rights reserved.</small></p>
     </footer>
     )
 }

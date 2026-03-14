@@ -144,6 +144,73 @@ nav {
   font-size: 4rem;
 }
 
+/* accelerator section */
+#accelerator {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#accelerator h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#accelerator h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary-color);
+}
+
+#accelerator p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+#accelerator ul, #accelerator ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+#accelerator li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+#accelerator button {
+  background-color: var(--button-color);
+  color: var(--text-primary-color);
+  border: var(--primary-color) solid 1px;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--mono);
+  font-size: 1rem;
+  
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+#accelerator button:hover {
+  background-color: var(--tertiary-hot);
+  color: var(--text-primary-color);
+}
+
+#accelerator .small-text {
+  font-size: 0.8rem;
+  color: var(--text-primary-color);
+  margin-top: 0.5rem;
+}
+
+#accelerator h3#tech-job-ai-accelerator {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-family: var(--mono);
+  display: block;
+}
+
 /* projects section */
 #projects {
     padding: 4rem 1rem 2rem 1rem;
