@@ -21,7 +21,7 @@ function Work(): JSX.Element {
         <div className="section-secondary-color">
         <section id="accelerator">
             <div className="hero">
-                <h2>Upgrade Your Tech Job Search With AI — Without Guesswork</h2>
+                <h2>Upgrade Your Tech Job Search — Without Guesswork</h2>
                 <p>A free guide with 5 proven AI prompts to help engineers get more interviews and better offers.</p>
                 <a href="https://www.dropbox.com/scl/fi/kjpfnc2gpw3mgiiuu0f1m/Five-prompts.pdf?rlkey=lqlu1bfk8eg8s9pk25r4x3fjo&st=n0xryijj&dl=0" target="_blank" rel="noopener noreferrer">
                     <button>👉 Download the Free Guide</button>
