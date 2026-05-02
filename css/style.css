@@ -203,13 +203,14 @@ nav {
   margin-top: 0.5rem;
 }
 
-#accelerator h3#tech-job-ai-accelerator {
-  color: var(--primary-color);
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
-  font-family: var(--mono);
-  display: block;
-}
+/* #accelerator .complete-system a {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+  }
+  #accelerator .complete-system a:hover{
+    color: var(--button-color);
+  } */
 
 /* projects section */
 #projects {

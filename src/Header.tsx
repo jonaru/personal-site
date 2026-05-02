@@ -14,8 +14,8 @@ export default function Header(): JSX.Element {
                     </h1>
                 </li>
                 <li><Link to="/#accelerator">Tech Job AI Accelerator</Link></li>
-                <li><Link to="/about#work">Work</Link></li>
                 <li><Link to="/about">About</Link></li>
+                <li><Link to="/about#work">Work</Link></li>
                 <li><Link to="/about#contact">Contact</Link></li>
                 <li><a href="https://linkedin.com/in/jonatanrugarn">
                     <span className="fa-brands fa-linkedin" aria-hidden="true"></span>

@@ -1,4 +1,4 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
+import { createLazyFileRoute, Link } from '@tanstack/react-router'
 import { getImageURL } from '../utils/image-utils'
 import { JSX } from 'react'
 
@@ -78,15 +78,20 @@ function Work(): JSX.Element {
         <div className="gradient"></div>
         <div className='section-tertiary-color'>
             <section id="accelerator">
-            <div className="soft-upsell">
-                <h2>Want the Complete System?</h2>
-                <p>This free guide is just the beginning.</p>
-                <p>If you want a full, structured system for landing better tech roles — including advanced templates, workflows, and interview frameworks — you’ll soon be able to access:</p>
-                <h3 id="tech-job-ai-accelerator">The Tech Job AI Accelerator</h3>
-                {/* <p>Join the list to get early access and founder pricing.</p>
-                <button>Join the List</button>
-                <p className="small-text">No spam. Unsubscribe anytime.</p> */}
-            </div>
+                <div className="complete-system">
+                    <h2>Want the Complete System?</h2>
+                    <p>This free guide is just the beginning.</p>
+                    <p>If you want a full, structured system for landing better tech roles — including advanced templates, workflows, and interview frameworks</p>
+                    <p>check out:</p>
+                    <Link to="https://jonatanrugarn.gumroad.com/" target="_blank" rel="noopener noreferrer">
+                        <button>
+                        <h3 id="tech-job-ai-accelerator">The Tech Job AI Accelerator</h3>
+                        </button>
+                    </Link>
+                    {/* <p>Join the list to get early access and founder pricing.</p>
+                    <button>Join the List</button>
+                    <p className="small-text">No spam. Unsubscribe anytime.</p> */}
+                </div>
             </section>
         </div>
 
